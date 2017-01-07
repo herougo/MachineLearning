@@ -142,7 +142,6 @@ def test1():
     
     print(df.dtypes[df.dtypes.map(lambda x: x=='object')])
 
-
 def exp(x):
     return np.exp(x)
 
@@ -153,7 +152,7 @@ def exp(x):
 def softmax(x):
     """Compute softmax values for each sets of scores in x."""
     # pass  # TODO: Compute and return softmax(x)
-    return exp(x) / sum(exp(x))
+    return np.exp(x) /  np.sum(np.exp(x))
 
 def test2():
     scores = np.array([3.0, 1.0, 0.2])
@@ -169,72 +168,3 @@ def test3():
     n -= 1000 * 1000 * 1000
     print(n)
     print("Should be 1")
-
-# get training data (train.csv/test.csv or train/test folders or data folder)
-
-# print data (and noteworthy graphs and results from models)
-
-# clean data
-# - fill in missing numbers with median (or most common element) 
-
-# add features
-
-# retrieve training data (minus labels) as np array
-
-# retrieve training data classification column as np array
-
-# train
-
-# train multiple models
-
-# predict
-
-# Questions *******
-# - plot with same scale for x as y
-# - display model results in sorted order
-
-# write predictions to csv file
-import csv as csv
-# ie savePredictions("myfirst.csv", "Id", "Survived", ids, output)
-def savePredictions(filename, id_label, output_label, ids, output):
-    predictions_file = open("myfirstforest.csv", "wb")
-    open_file_object = csv.writer(predictions_file)
-    open_file_object.writerow([id_label, output_label])
-    open_file_object.writerows(zip(ids, output))
-    predictions_file.close()
-
-import matplotlib.pyplot as plt
-
-# histogram
-def hist():
-    return ""
-
-def scatterplot(x_values, y_values, x_label="", y_label="", title=""):
-    plt.plot(x_values, y_values, 'ro')
-    if title != "":
-        plt.title(title)
-    if x_label != "":
-        plt.xlabel = x_label
-    if y_label != "":
-        plt.ylabel = y_label
-    plt.show()
-    
-
-# line graph
-def linegraph(x_values, y_values, x_label="", y_label="", title=""):
-    plt.plot(x_values, y_values)
-    if title != "":
-        plt.title(title)
-    if x_label != "":
-        plt.xlabel = x_label
-    if y_label != "":
-        plt.ylabel = y_label
-    plt.show()
-
-# R language table
-def rtable():
-    return ""
-
-
-# plt.plot([1,2,3,4], [1,4,9,16], 'ro')
-# plt.axis([x_start, x_end, y_start, y_end])
