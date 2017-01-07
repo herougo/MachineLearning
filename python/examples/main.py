@@ -275,6 +275,7 @@ for model in clf.keys():
     prediction = clf[model].predict(X)
     accuracy[model] = accuracy_score(Y, prediction)
 
+# print models in descending order wrt accuracy
 for key, value in sorted(accuracy.items(), key=lambda kv: kv[1], reverse=True):
     print(key, value)
 
