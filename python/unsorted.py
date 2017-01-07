@@ -11,7 +11,6 @@ def exp(x):
 
 def softmax(x):
     """Compute softmax values for each sets of scores in x."""
-    # pass  # TODO: Compute and return softmax(x)
     return np.exp(x) /  np.sum(np.exp(x))
 
 # get training data (train.csv/test.csv or train/test folders or data folder)

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/henri/Documents/MachineLearning/Done/TensorflowTest/sentdex3checkpoint/model.ckpt"
+all_model_checkpoint_paths: "/home/henri/Documents/MachineLearning/Done/TensorflowTest/sentdex3checkpoint/model.ckpt"
