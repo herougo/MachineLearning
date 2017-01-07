@@ -46,33 +46,6 @@ def savePredictions(filename, id_label, output_label, ids, output):
     open_file_object.writerows(zip(ids, output))
     predictions_file.close()
 
-import matplotlib.pyplot as plt
-
-# histogram
-def hist():
-    return ""
-
-def scatterplot(x_values, y_values, x_label="", y_label="", title=""):
-    plt.plot(x_values, y_values, 'ro')
-    if title != "":
-        plt.title(title)
-    if x_label != "":
-        plt.xlabel = x_label
-    if y_label != "":
-        plt.ylabel = y_label
-    plt.show()
-    
-
-# line graph
-def linegraph(x_values, y_values, x_label="", y_label="", title=""):
-    plt.plot(x_values, y_values)
-    if title != "":
-        plt.title(title)
-    if x_label != "":
-        plt.xlabel = x_label
-    if y_label != "":
-        plt.ylabel = y_label
-    plt.show()
 
 
 
