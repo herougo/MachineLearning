@@ -74,9 +74,7 @@ def linegraph(x_values, y_values, x_label="", y_label="", title=""):
         plt.ylabel = y_label
     plt.show()
 
-# R language table
-def rtable():
-    return ""
+
 
 
 # plt.plot([1,2,3,4], [1,4,9,16], 'ro')
