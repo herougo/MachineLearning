@@ -2,6 +2,13 @@
 # line of python
 
 # To do: account for multiple lines in the same graph
+# variables: colours, filled_markers, default_marker
+
+# plt.plot([1,2,3,4], [1,4,9,16], 'ro')
+# plt.axis([x_start, x_end, y_start, y_end])
+
+# Questions *******
+# - plot with same scale for x as y
 
 import matplotlib.pyplot as plt
 import pandas as pd

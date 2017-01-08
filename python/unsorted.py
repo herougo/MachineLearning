@@ -32,15 +32,13 @@ def softmax(x):
 
 # predict
 
-# Questions *******
-# - plot with same scale for x as y
-# - display model results in sorted order
+
 
 # write predictions to csv file
 import csv as csv
 # ie savePredictions("myfirst.csv", "Id", "Survived", ids, output)
 def savePredictions(filename, id_label, output_label, ids, output):
-    predictions_file = open("myfirstforest.csv", "wb")
+    predictions_file = open(filename, "wb")
     open_file_object = csv.writer(predictions_file)
     open_file_object.writerow([id_label, output_label])
     open_file_object.writerows(zip(ids, output))
@@ -50,5 +48,3 @@ def savePredictions(filename, id_label, output_label, ids, output):
 
 
 
-# plt.plot([1,2,3,4], [1,4,9,16], 'ro')
-# plt.axis([x_start, x_end, y_start, y_end])

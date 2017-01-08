@@ -1,0 +1,5 @@
+Where the data came from
+
+titanic - Kaggle
+siraj-music - Siraj Raval
+ - https://github.com/llSourcell/Music_Generator_Demo/tree/master/Pop_Music_Midi
