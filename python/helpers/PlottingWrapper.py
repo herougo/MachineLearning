@@ -7,11 +7,11 @@
 # plt.plot([1,2,3,4], [1,4,9,16], 'ro')
 # plt.axis([x_start, x_end, y_start, y_end])
 
-# Questions *******
-# - plot with same scale for x as y
+# ax.set_aspect(2)
 
 import matplotlib.pyplot as plt
 import pandas as pd
+from mpl_toolkits.mplot3d import Axes3D
 
 # Purpose: if a panda series is passed, format it to be compatible
 #          with matplotlib
