@@ -16,9 +16,9 @@ from mpl_toolkits.mplot3d import Axes3D
 # Purpose: if a panda series is passed, format it to be compatible
 #          with matplotlib
 def formatArray(x):
-	if type(x) == pd.Series:
-		x = x.values
-	return x
+    if type(x) == pd.Series:
+        x = x.values
+    return x
 
 # histogram
 def histogram():
@@ -26,15 +26,15 @@ def histogram():
 
 # box and whisker plot
 def boxplot():
-	return ""
+    return ""
 
 # confusion matrix as image
 def confusionmatrix():
-	return ""
+    return ""
 
 # plot signals given matrix
 def signals():
-	return ""
+    return ""
 
 # scatter plot
 def scatter(x_values, y_values, x_label="", y_label="", title=""):
