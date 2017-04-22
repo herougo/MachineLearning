@@ -16,3 +16,4 @@ Testing Multiple Sklearn Models: https://github.com/herougo/MachineLearning/blob
 ## Examples
 
 Sentdex Tensorflow Examples: https://github.com/herougo/MachineLearning/tree/master/python/examples/done/TensorflowTest
+- Tensorflow Examples using convolutional NNs and recurrent NNs I went through in Sentdex's Youtube videos: https://www.youtube.com/watch?v=oYbVFhK_olY&list=PLSPWNkAMSvv5DKeSVDbEbUKSsK4Z-GgiP.
