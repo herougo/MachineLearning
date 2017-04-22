@@ -17,7 +17,6 @@ data = np.array(data)              # Then convert from a list to an array
 print(data)
 
 
-
 test_file = open('../csv/test.csv', 'rb')
 test_file_object = csv.reader(test_file)
 header = test_file_object.next()
